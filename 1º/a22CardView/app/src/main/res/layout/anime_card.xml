@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image_anime_desc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/nombre"
+            android:layout_toEndOf="@+id/imagen"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/visitas"
+            android:layout_below="@+id/nombre"
+            android:layout_alignStart="@+id/nombre" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/linea"
+            android:layout_above="@+id/compartir"
+            android:layout_toEndOf="@+id/imagen">
+
+        </View>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/compartir"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_share"
+            android:background="@color/material_blue_grey_800"
+            android:contentDescription="@string/share_desc" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

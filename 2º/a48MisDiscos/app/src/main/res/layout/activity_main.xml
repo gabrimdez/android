@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/etNombre" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Nombre del disco" />
+
+    <EditText android:id="@+id/etArtista" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Artista" />
+
+    <EditText android:id="@+id/etGenero" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Género" />
+
+    <EditText android:id="@+id/etDuracion" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Duración (segundos)" android:inputType="number" />
+
+    <EditText android:id="@+id/etAnio" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Año" android:inputType="number" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center" android:layout_marginTop="10dp">
+
+        <Button android:id="@+id/btnAnadir" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Añadir" />
+
+        <Button android:id="@+id/btnModificar" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Modificar" android:layout_marginHorizontal="5dp"/>
+
+        <Button android:id="@+id/btnBorrar" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Borrar" android:backgroundTint="#FF5252" />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:background="@android:color/darker_gray" android:layout_marginVertical="10dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMusica"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

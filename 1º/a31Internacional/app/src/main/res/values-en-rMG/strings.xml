@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">a31Internacional</string>
+    <string name="uno">31 International</string>
+    <string name="dos">Connect</string>
+    <string name="tres">Mail</string>
+    <string name="cuatro">Password</string>
+    <string name="cinco">Login</string>
+    <string name="seis">Forgot your password?</string>
+</resources>

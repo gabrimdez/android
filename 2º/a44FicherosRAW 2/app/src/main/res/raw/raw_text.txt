@@ -1,0 +1,5 @@
+3. Create a new text file by right-clicking on the raw folder
+and select New | File. Name the file raw_text.txt and type some
+text in the file. (This text will be displayed when you run the
+application.)
+

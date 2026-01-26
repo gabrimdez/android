@@ -1,0 +1,54 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- AppBar con Toolbar y Tabs -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.Material3.Dark"
+            app:popupTheme="@style/ThemeOverlay.Material3.Light" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="?attr/colorOnPrimary"
+            app:tabTextColor="?attr/colorOnSurfaceVariant"
+            app:tabSelectedTextColor="?attr/colorPrimary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- ViewPager: usar la versión clásica que espera MainActivity -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="@dimen/size_fab"
+        android:layout_height="@dimen/size_fab"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="onFabClick"
+        android:src="@drawable/ic_search"
+        app:borderWidth="0dp"
+        app:elevation="@dimen/fab_elevation"
+        app:layout_anchor="@id/pager"
+        app:layout_anchorGravity="bottom|end"
+        app:tint="@android:color/white" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,4 @@
+5. Create a text file in the asset folder called asset_text.txt.
+Again, whatever text you type here will be shown when you run
+the app. Here&#39;s how the final result should look after both text
+files are created:

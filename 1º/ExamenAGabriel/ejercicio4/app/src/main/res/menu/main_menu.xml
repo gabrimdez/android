@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/menu_home"
+        android:id="@+id/uno"
+        android:icon="@drawable/baseline_home_24"
+        app:iconTint="#FF0000" />
+
+
+    <item
+        android:id="@+id/menu_info"
+        android:title="@string/menu_info"
+        android:icon="@drawable/baseline_info_24"
+        app:showAsAction="never">
+
+        <menu>
+
+            <!-- 1 -->
+            <item
+                android:id="@+id/sub_features"
+                android:title="@string/features"
+                android:icon="@drawable/baseline_key_24"/>
+
+            <!-- 1 -->
+            <item
+                android:id="@+id/sub_instalation"
+                android:title="@string/instalation"
+                android:icon="@drawable/baseline_anchor_24">
+                <menu>
+                    <item
+                        android:id="@+id/info_instalation"
+                        android:title="@string/info_instalation" />
+
+                </menu>
+
+            </item>
+
+            <!-- 1 -->
+            <item
+                android:id="@+id/parameters"
+                android:title="@string/parameters"
+                android:icon="@drawable/outline_settings"/>
+
+            <!-- 1 -->
+            <item
+                android:id="@+id/suported_browsers"
+                android:title="@string/suported_browsers"
+                android:icon="@drawable/outline_add_moderator_24">
+
+                <menu>
+                    <item
+                        android:id="@+id/menu_brosers"
+                        android:title="@string/menu_brosers1" />
+                </menu>
+            </item>
+
+            <!-- 1 -->
+
+            <item
+                android:id="@+id/css3info"
+                android:title="@string/css3info"
+                android:icon="@drawable/outline_css"/>
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:id="@+id/samples"
+        android:title="@string/samples"
+        android:icon="@drawable/outline_star"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/ejemplo1"
+                android:title="@string/ejemplo1" />
+            <item
+                android:id="@+id/ejemplo2"
+                android:title="@string/ejemplo2" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/dowloads"
+        android:id="@+id/dos"
+        android:icon="@drawable/baseline_arrow_downward_24" />
+
+
+</menu>

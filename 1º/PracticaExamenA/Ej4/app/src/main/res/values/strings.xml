@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A04 Ejercicio</string>
+    <string name="diseno_grafico">Diseño gráfico</string>
+    <string name="diseno_web">Diseño web</string>
+    <string name="marketing">Marketing</string>
+    <string name="submenu1">Submenú 1</string>
+    <string name="submenu2">Submenú 2</string>
+    <string name="submenu3">Submenú 3</string>
+    <string name="seo">SEO</string>
+</resources>

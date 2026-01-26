@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mn_diseno_grafico"
+        android:title="@string/diseno_grafico"
+        android:icon="@drawable/outline_accessibility_new_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_diseno_web"
+        android:title="@string/diseno_web"
+        android:icon="@drawable/outline_accessible_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_marketing"
+        android:title="@string/marketing"
+        android:icon="@drawable/outline_accessible_forward_24"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mn_sub1"
+                android:title="@string/submenu1"
+                android:icon="@drawable/outline_airline_seat_flat_24" />
+            <item
+                android:id="@+id/mn_sub2"
+                android:title="@string/submenu2"
+                android:icon="@drawable/outline_airline_seat_flat_angled_24" />
+            <item
+                android:id="@+id/mn_sub3"
+                android:title="@string/submenu3"
+                android:icon="@drawable/outline_airline_seat_individual_suite_24" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/mn_seo"
+        android:title="@string/seo"
+        android:icon="@drawable/outline_account_circle_off_24"
+        app:showAsAction="never" />
+
+</menu>

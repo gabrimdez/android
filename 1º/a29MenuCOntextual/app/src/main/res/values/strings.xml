@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">a29MenuCOntextual</string>
+    <string name="menu_cast">cast</string>
+    <string name="menu_print">print</string>
+</resources>

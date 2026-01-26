@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">a31Internacional</string>
+    <string name="uno">31 Internacional</string>
+    <string name="dos">Verdinblin</string>
+    <string name="tres">Post</string>
+    <string name="cuatro">Passwort</string>
+    <string name="cinco">Login</string>
+    <string name="seis">Sie haben lhr passwort vergeseen?</string>
+</resources>

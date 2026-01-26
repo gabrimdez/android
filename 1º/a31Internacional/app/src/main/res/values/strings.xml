@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">a31Internacional</string>
+    <string name="uno" translatable="false">31 Internacional</string>
+    <string name="dos">Conectar</string>
+    <string name="tres">Correo</string>
+    <string name="cuatro">Contraseña</string>
+    <string name="cinco">INICIAR SESION</string>
+    <string name="seis">¿Olvidaste tu contraseña?</string>
+</resources>

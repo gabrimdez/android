@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Item 1"
+        android:id="@+id/uno"
+        android:icon="@drawable/outline_add_call_24"
+        />
+    <item android:title="Item 2"
+        android:id="@+id/dos"
+        android:icon="@drawable/outline_arrow_downward_24"
+        />
+    <item android:title="Item 3"
+        android:id="@+id/tres"
+        android:icon="@drawable/outline_android_wifi_3_bar_24"
+        />
+
+    <item
+        android:id="@+id/menu_ajuste"
+        android:title="@string/menu_ajuste"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_sub1"
+                android:title="Storage Settings"
+                />
+            <item
+                android:id="@+id/menu_sub2"
+                android:title="Screen Settings"
+                />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group_one"
+        >
+        <item
+            android:id="@+id/menu_item1"
+            android:title="ELEMENTO 1"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/menu_item2"
+            android:title="ELEMENTO 2"
+            app:showAsAction="ifRoom"
+            />
+
+    </group>
+</menu>
