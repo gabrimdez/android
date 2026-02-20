@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">a53Camara</string>
+    <string name="guardarFoto">Guardar Foto</string>
+    <string name="guardarFotoText">Guardar en tarjeta SD</string>
+    <string name="thumbnailText">Cargar en View</string>
+    <string name="thumbnailButton">Sacar Foto</string>
+</resources>

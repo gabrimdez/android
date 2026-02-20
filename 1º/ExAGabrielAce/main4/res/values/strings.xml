@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ejercicio 4</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_info">info</string>
+    <string name="features">Storage Settings</string>
+    <string name="instalation">Screen Settings</string>
+    <string name="info_instalation">information</string>
+    <string name="parameters">parameters</string>
+    <string name="suported_browsers">suported_browsers</string>
+    <string name="menu_brosers1">1</string>
+    <string name="css3info">css</string>
+
+    <string name="menu_dowloads">descargas</string>
+    <string name="ejemplo1">ejemplo1</string>
+    <string name="ejemplo2">ejemplo2</string>
+    <string name="dowloads">dowloadas</string>
+    <string name="samples">samples</string>
+    <string name="menu_settings">ajust</string>
+
+</resources>

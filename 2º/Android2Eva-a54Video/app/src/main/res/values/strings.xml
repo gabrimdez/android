@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">a54Video</string>
+    <string name="guardarVideo">Guardar Video</string>
+    <string name="guardarVideoText">Guardar en tarjeta SD</string>
+    <string name="thumbnailText">Cargar en View</string>
+    <string name="thumbnailButton">Sacar Video</string>
+</resources>
